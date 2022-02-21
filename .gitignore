@@ -25,3 +25,6 @@ m68kmake
 m68kops.?
 sim
 tags
+
+# Editor settings
+.vscode/tasks.json

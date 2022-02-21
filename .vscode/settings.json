@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "softfloat.h": "c",
+        "stdbool.h": "c",
+        "specialize.h": "c"
+    }
+}

@@ -95,8 +95,7 @@ typedef uint32 uint64;
 #define S64(val) val
 #endif
 
-#include "softfloat/milieu.h"
-#include "softfloat/softfloat.h"
+#include "softfloat/source/include/softfloat.h"
 
 
 /* Allow for architectures that don't have 8-bit sizes */
@@ -938,7 +937,7 @@ typedef struct
 	uint cacr;         /* Cache Control Register (m68020, unemulated) */
 	uint caar;         /* Cache Address Register (m68020, unemulated) */
 	uint ir;           /* Instruction Register */
-	floatx80 fpr[8];     /* FPU Data Register (m68030/040) */
+	extFloat80_t fpr[8];  /* FPU Data Register (m68030/040) */
 	uint fpiar;        /* FPU Instruction Address Register (m68040) */
 	uint fpsr;         /* FPU Status Register (m68040) */
 	uint fpcr;         /* FPU Control Register (m68040) */

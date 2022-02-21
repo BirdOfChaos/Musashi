@@ -1,7 +1,7 @@
                                     MUSASHI
                                     =======
 
-                                  Version 4.10
+                                  Version 4.20
 
              A portable Motorola M680x0 processor emulation engine.
             Copyright 1998-2002 Karl Stenerud.  All rights reserved.
